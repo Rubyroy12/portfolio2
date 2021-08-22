@@ -32,11 +32,11 @@
     font-size: 18px;
     font-weight: 500;
     margin: 0 0 25px;
-    color: #000;
+    color: rgb(255, 255, 255);
   }
   
   .text h6 span {
-    color: #5f88e0;
+    color: #02ad94;
     position: relative;
   }
   
@@ -47,7 +47,7 @@
     position: absolute;
     height: 2px;
     bottom: 0px;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
   }
   
   .text h6 span:hover::before {
@@ -103,7 +103,7 @@
   .social a {
     height: 30px;
     width: 30px;
-    background-color: #000;
+    /* background-color: #000; */
     display: inline-block;
     border: 1px solid #000;
     border-radius: 4px;
@@ -116,7 +116,7 @@
   
   .social a:hover {
     background-color: transparent;
-    color: #000;
+    color: rgb(240, 234, 234);
   }
   
   .social a .fa {
@@ -124,6 +124,6 @@
     font-size: 14px;
   }
   
-  .social a .fa:hover {
+  /* .social a .fa:hover {
     color: #000;
-  }
+  } */
