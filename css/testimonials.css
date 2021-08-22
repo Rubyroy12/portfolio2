@@ -68,7 +68,7 @@
     height: 15px;
     width: 15px;
     background-color: #fff;
-    border: 1px solid #5f88e0;
+    border: 1px solid #02977e;
     border-radius: 50%;
     display: inline-block;
     margin: 10px 6px;
@@ -76,6 +76,6 @@
 }
 
 .slider div.active {
-    background-color: #5f88e0;
+    background-color: #03a172;
 
 }
