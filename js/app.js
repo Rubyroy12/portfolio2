@@ -15,7 +15,7 @@ window.onscroll = function () {
   //navbar links
   
   const navbar = document.querySelector(".navbar");
-  a = navbar.querySelectorAll("a")
+  var a = navbar.querySelectorAll("a")
   
   a.forEach(function (element) {
     element.addEventListener("click", function () {
@@ -147,7 +147,7 @@ window.onscroll = function () {
   
   function controlSlide(element) {
     clearInterval(timer);
-    timer = setInterval(autoPlay, 5000);
+    timer = setInterval(autoPlay, 10000);
     autoSlide = element.id;
     currentSlide = element.id;
     changeSlide(currentSlide);
@@ -171,7 +171,7 @@ window.onscroll = function () {
     }
     changeSlide(autoSlide);
   }
-  let timer = setInterval(autoPlay, 5000);
+  let timer = setInterval(autoPlay, 10000);
   
   window.onload = load();
   
