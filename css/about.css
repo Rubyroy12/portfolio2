@@ -1,17 +1,19 @@
 .about {
   padding: 100px 15px;
-  background-color: #555859
+  background-color: #606263
 }
 
 .img {
   flex: 0 0 50%;
-  max-width: 50%;
+  /* max-width: 50%; */
 }
 
 .img img {
-  width: 100%;
-  border-radius: 4px;
-  display: block;
+  width: 70%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text {
@@ -89,7 +91,6 @@
  
   color: white;
 } 
-z
 
 .lang{
   display: flex;
@@ -101,14 +102,26 @@ z
 
 .social {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
+
+
+
 }
+.social img{
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+  
+}
+
 
 /* .social a {
   height: 30px;
   width: 30px;
 
   display: inline-block;
-  border: 1px solid #000;
+  border: 1px solid rgb(70, 68, 68);
   border-radius: 4px;
   line-height: 28px;
   text-align: center;
@@ -120,12 +133,12 @@ z
 .social a:hover {
   background-color: transparent;
   color: rgb(240, 234, 234);
-}
+} */
 
-.social a .fa {
+/* .social a .fa {
   color: #fff;
   font-size: 14px;
-} */
+}  */
 
 /* .social a .fa:hover {
     color: #000;
