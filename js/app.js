@@ -179,3 +179,17 @@ window.onscroll = function () {
   //Footer Year 
   var year = document.getElementById("year");
   year.innerHTML = new Date().getFullYear();
+
+  function sendEmail() {
+    Email.send({
+    Host: "smtp.gmail.com",
+    Username : "ibrakipz7@gmail.com",
+    Password : "Dormans2",
+    To : 'ibrakipz7@gmail.com',
+    From : "anonymous@gmail.com",
+    Subject : "Lets Connect",
+    Body : "Hello, I have seen your portfolio",
+    }).then(
+      message => alert("mail sent successfully")
+    );
+  }

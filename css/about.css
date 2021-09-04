@@ -4,12 +4,12 @@
 }
 
 .img {
-  flex: 0 0 50%;
-  /* max-width: 50%; */
+  flex: 0 0 100%;
+  max-width: 50%;
 }
 
 .img img {
-  width: 70%;
+  width: 60%;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -22,22 +22,22 @@
   padding-left: 30px;
 }
 
+
 .text h4 {
   font-size: 25px;
   font-weight: 600;
   margin: 0 0 10px;
-  color: #000;
+  color: rgb(255, 254, 254);
 }
 
 .text h6 {
   font-size: 18px;
   font-weight: 500;
-  margin: 0 0 25px;
   color: rgb(255, 255, 255);
 }
 
 .text h6 span {
-  color: #02ad94;
+  color: #03fab0;
   position: relative;
 }
 
@@ -57,7 +57,7 @@
   right: 0;
   position: absolute;
   height: 2px;
-  background-color: #5f88e0;
+  background-color: #0c3022;
   bottom: 0px;
 }
 
@@ -76,27 +76,34 @@
 .skills h6 {
   font-size: 18px;
   font-weight: 400;
-  margin: 0 0 25px;
   color: #000;
 }
 
 .skills-list {
   display: flex;
-  justify-content: space-between;
-}
-.fa-lang{
-  display: flex;
   justify-content: space-around;
   margin: 10px;
- 
-  color: white;
-} 
+  max-width: 80%;
 
-.lang{
+}
+
+.fa-lang {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  color: white;
+  width: 80%;
+}
+
+.lang {
   display: flex;
   flex-direction: column;
- align-items: center;
- margin: 10px;
+  align-items: center;
+  margin: 10px;
+}
+
+.lang span {
+  font-size: smaller;
 }
 
 
@@ -108,13 +115,25 @@
 
 
 }
-.social img{
+
+.social img {
   height: 30px;
   width: 30px;
   margin: 3px;
-  
+
 }
 
+.media img {
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+
+}
+
+.media img:hover {
+  border-bottom: 2px solid rgb(5, 230, 162);
+
+}
 
 /* .social a {
   height: 30px;

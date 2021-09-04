@@ -3,7 +3,7 @@ header {
     padding: 0px 15px;
     left: 0px;
     right: 0px;
-    border-bottom: 1px solid #423940;
+    border-bottom: 1px solid #394240;
     z-index: 11;
   }
   
@@ -50,7 +50,7 @@ header {
   .hamburger .fa {
     font-size: 20px;
     background-color: rgb(236, 241, 250);
-    color: #01143e;
+    color: #02b87b;
     display: none;
     height: 30px;
     width: 35px;
@@ -98,7 +98,7 @@ header {
   }
   
   .fixed .navbar ul li a::before {
-    background-color: #5f88e0;
+    background-color: #0c3022;
   }
   
   .navbar ul li a:hover::before {
