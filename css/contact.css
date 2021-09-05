@@ -129,6 +129,11 @@
 
 .social-media .bi:hover {
     color: rgb(0, 56, 238);
-    
-
+}
+.location{
+    margin-top: 20px;
+}
+.location .bi{
+    font-size: 40px;
+    color:rgb(248, 33, 33);
 }
