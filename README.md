@@ -1,10 +1,10 @@
 ## Personal Portfolio
 
 ### Author
-Lucy Chimoli
+[Ibrahim Kiprotich](https://github.com/Rubyroy12)
 
 ## Description
-This is an easy-to-customize personal portfolio  that i created with HTML, CSS, and JavaScript. It is a lightweight and fully responsive, as well as comes with the p grid system and loaded with Font Awesome. 
+This is an easy-to-customize personal portfolio  that i created with HTML, CSS, and JavaScript. It is a lightweight and fully responsive and iconographic site. 
 
 ### Features
 About me
@@ -12,8 +12,6 @@ About me
 Services
 
 Portfolio
-
-Blog
 
 Contact
 
@@ -25,4 +23,4 @@ CSS3
 JavaScript
 
 ### License
-Mtn Copyright(c)2021 Awards by Lucy Chimoli
+Copyright(c)2021 by [MIT](License)
